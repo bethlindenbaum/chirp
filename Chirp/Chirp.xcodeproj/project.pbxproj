@@ -19,6 +19,7 @@
 		4DE557352ECBFE21004E4D94 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE557342ECBFE21004E4D94 /* NotificationsView.swift */; };
 		4DE557392ECC00E7004E4D94 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE557382ECC00E7004E4D94 /* ProfileView.swift */; };
 		4DE5573B2F0089FF004E4D94 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5573A2F0089FF004E4D94 /* TweetFilterViewModel.swift */; };
+		4DE557402F00A59A004E4D94 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5573F2F00A59A004E4D94 /* UserRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4DE557342ECBFE21004E4D94 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		4DE557382ECC00E7004E4D94 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4DE5573A2F0089FF004E4D94 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		4DE5573F2F00A59A004E4D94 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		4DE5571C2ECAC89F004E4D94 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4DE5573E2F00A57A004E4D94 /* Users */,
 				4DE557232ECACB0A004E4D94 /* Tweet */,
 			);
 			path = Components;
@@ -173,7 +176,8 @@
 		4DE557292ECBFD2E004E4D94 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				4DE5572D2ECBFD8C004E4D94 /* ExploreView.swift */,
+				4DE5573C2F00A544004E4D94 /* ViewModels */,
+				4DE5573D2F00A54B004E4D94 /* Views */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -217,6 +221,29 @@
 				4DE557382ECC00E7004E4D94 /* ProfileView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4DE5573C2F00A544004E4D94 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4DE5573D2F00A54B004E4D94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DE5572D2ECBFD8C004E4D94 /* ExploreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DE5573E2F00A57A004E4D94 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				4DE5573F2F00A59A004E4D94 /* UserRowView.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +324,7 @@
 				4DE557222ECACA59004E4D94 /* FeedView.swift in Sources */,
 				4DE5570A2ECAC723004E4D94 /* ChirpApp.swift in Sources */,
 				4DE5572E2ECBFD8C004E4D94 /* ExploreView.swift in Sources */,
+				4DE557402F00A59A004E4D94 /* UserRowView.swift in Sources */,
 				4DE557282ECBFC17004E4D94 /* MainTabView.swift in Sources */,
 				4DE557352ECBFE21004E4D94 /* NotificationsView.swift in Sources */,
 			);
